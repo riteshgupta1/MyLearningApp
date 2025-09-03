@@ -75,6 +75,7 @@ function App(): React.JSX.Element {
   return (
     <View style={styles.container}>
       <Text style={styles.helloText}> Hello world </Text>
+      <Text style={styles.helloText}> Hello world </Text>
     </View>
   );
 }
