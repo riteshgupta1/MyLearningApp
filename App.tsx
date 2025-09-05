@@ -6,6 +6,7 @@
  */
 
 import React from 'react';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import type {PropsWithChildren} from 'react';
 import {
   ScrollView,
@@ -74,6 +75,7 @@ function App(): React.JSX.Element {
 
   return (
     <View style={styles.container}>
+      <Icon name="shopping-cart" size={20} color="black" />
       <Text style={styles.helloText}> Hello world </Text>
       <Text style={styles.helloText}> Hello world </Text>
       <Text style={styles.helloText}> Hello world </Text>
